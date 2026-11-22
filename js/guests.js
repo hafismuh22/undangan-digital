@@ -1,6 +1,5 @@
-// Tambahkan atau ubah daftar nama tamu di sini.
-// Kode pada URL harus sama dengan key di bawah.
-// Contoh: index.html?to=ahmad
+// Tambahkan kode unik dan nama tamu di sini.
+// Contoh link: ?to=ahmad
 window.GUESTS = {
   ahmad: "Bapak Ahmad",
   siti: "Ibu Siti",
