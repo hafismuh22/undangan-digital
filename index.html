@@ -1,74 +1,34 @@
 <!doctype html>
-<html lang="id">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f0e5">
-  <title>Undangan Pernikahan | Andi & Sarah</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <main>
-    <section class="cover" id="home">
-      <div class="ornament">❧</div>
-      <p class="eyebrow">THE WEDDING OF</p>
-      <h1>MUH NASIR BIN AKHMAD <span>&</span> NURFATIMA BT MUSTAFA</h1>
-      <p class="date">SABTU, 28 NOVEMBER 2026</p>
-      <div class="guest-box">
-        <p>Kepada Yth.</p>
-        <h2 id="guestName">Tamu Undangan</h2>
-      </div>
-      <p class="intro">Dengan penuh rasa syukur, kami mengundang Anda untuk hadir dan memberikan doa restu pada hari bahagia kami.</p>
-      <button id="openInvitation" class="gold-button">Buka Undangan</button>
-      <p class="small-note">Mohon maaf apabila terdapat kesalahan penulisan nama dan gelar.</p>
-      <div class="ornament bottom">❧</div>
-    </section>
-
-    <section class="content" id="details">
-      <p class="eyebrow">ASSALAMU'ALAIKUM WARAHMATULLAHI WABARAKATUH</p>
-      <h2>Dengan memohon rahmat dan ridho Allah SWT</h2>
-      <p class="body-copy">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai.</p>
-
-      <div class="couple">
-        <div class="person">
-          <div class="photo-placeholder">Foto Andi</div>
-          <h3>Muh Nasir</h3>
-          <p>Putra dari Bapak Akhmad & Ibu ...</p>
-        </div>
-        <div class="ampersand">&</div>
-        <div class="person">
-          <div class="photo-placeholder">Foto Sarah</div>
-          <h3>Nurfatima</h3>
-          <p>Putri dari Bapak Mustafa & Ibu Mira</p>
-        </div>
-      </div>
-
-      <div class="event-card">
-        <p class="eyebrow">SAVE THE DATE</p>
-        <h2>Akad Nikah</h2>
-        <p>Sabtu, 28 November 2026</p>
-        <p>3.00 – 10.00 Malam</p>
-        <hr>
-        <h2>Resepsi</h2>
-        <p>Minggu, 29 November 2026</p>
-        <p>11.00 – 14.00 WIB</p>
-        <p class="venue">Dewan Leepang 4</p>
-        <a class="gold-button link-button" href="https://maps.google.com/?q=Gedung+Harmoni+Bandung" target="_blank" rel="noopener">Lihat Lokasi</a>
-      </div>
-
-      <h2 class="section-title">Galeri Foto</h2>
-      <div class="gallery">
-        <div>Foto 1</div><div>Foto 2</div><div>Foto 3</div>
-      </div>
-
-      <div class="closing">
-        <h2>Merupakan suatu kebahagiaan bagi kami</h2>
-        <p>Atas kehadiran dan doa restu Bapak/Ibu/Saudara/i, kami mengucapkan terima kasih.</p>
-        <p class="signature">Andi & Sarah</p>
-      </div>
-    </section>
-  </main>
-  <script src="js/guests.js"></script>
-  <script src="js/app.js"></script>
-</body>
-</html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f2e9"><title>The Wedding of Andi & Sarah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<audio id="weddingMusic" loop preload="none"><source src="assets/music/wedding.mp3" type="audio/mpeg"></audio>
+<button class="music-toggle" id="musicToggle" hidden aria-label="Putar atau jeda musik"><span>♫</span> <b id="musicLabel">Musik</b></button>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+<p class="overline reveal">THE WEDDING CELEBRATION OF</p><div class="ornament reveal">✧ ❦ ✧</div>
+<h1 class="names reveal"><span>Andi</span><i>&</i><span>Sarah</span></h1><p class="hero-date reveal">20 · 12 · 2026</p>
+<div class="guest-card reveal"><span>KEPADA YANG TERHORMAT</span><strong id="guestName">Tamu Undangan</strong></div>
+<p class="hero-note reveal">Dengan penuh rasa syukur dan sukacita, kami mengundang Anda untuk hadir di hari istimewa kami.</p>
+<button class="open-button reveal" id="openInvitation">✧ &nbsp; BUKA UNDANGAN &nbsp; ↓</button><p class="scroll-hint reveal">SCROLL TO EXPLORE <span>⌄</span></p>
+</div></section>
+<section class="intro section-pad" id="intro"><p class="overline reveal">ASSALAMU'ALAIKUM WARAHMATULLAHI WABARAKATUH</p>
+<h2 class="section-heading reveal">Dengan memohon rahmat<br>dan ridho Allah SWT</h2><div class="rule reveal">✦</div>
+<p class="body-copy reveal">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai.</p></section>
+<section class="couple section-pad"><p class="overline reveal">THE BRIDE & THE GROOM</p><h2 class="section-heading reveal">Kedua Mempelai</h2>
+<div class="couple-grid">
+<article class="person reveal"><img src="assets/images/groom.jpg" alt="Foto Andi"><p class="overline">THE GROOM</p><h3>Andi Pratama</h3><p>Putra dari Bapak ... & Ibu ...</p></article>
+<div class="amp reveal">&</div>
+<article class="person reveal"><img src="assets/images/bride.jpg" alt="Foto Sarah"><p class="overline">THE BRIDE</p><h3>Sarah Amelia</h3><p>Putri dari Bapak ... & Ibu ...</p></article>
+</div></section>
+<section class="quote"><div class="reveal"><span>“</span><p>Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan pasangan-pasangan untukmu agar kamu merasa tenteram kepadanya.</p><small>QS. AR-RUM: 21</small></div></section>
+<section class="events section-pad" id="events"><p class="overline reveal">SAVE THE DATE</p><h2 class="section-heading reveal">Rangkaian Acara</h2>
+<div class="event-grid"><article class="event-card reveal"><span>✧</span><p class="overline">MOMEN PERTAMA</p><h3>Akad Nikah</h3><div class="rule">✦</div><p>Minggu, 20 Desember 2026<br>08.00 WIB – Selesai</p><p>Masjid / Gedung ...<br>Alamat lengkap lokasi acara</p></article>
+<article class="event-card reveal"><span>✧</span><p class="overline">HARI BAHAGIA</p><h3>Resepsi</h3><div class="rule">✦</div><p>Minggu, 20 Desember 2026<br>11.00 – 14.00 WIB</p><p>Gedung Harmoni<br>Jl. Merdeka No. 10, Bandung</p></article></div>
+<a class="map-button reveal" href="https://maps.google.com/?q=Gedung+Harmoni+Bandung" target="_blank" rel="noopener">⌖ &nbsp; BUKA PETUNJUK LOKASI</a></section>
+<section class="gallery section-pad"><p class="overline reveal">OUR MOMENTS</p><h2 class="section-heading reveal">Galeri Bahagia</h2><p class="body-copy reveal">Sepenggal cerita yang menjadi bagian dari perjalanan kami.</p>
+<div class="gallery-grid"><img class="reveal" src="assets/images/gallery-1.jpg" alt="Galeri 1"><img class="reveal" src="assets/images/gallery-2.jpg" alt="Galeri 2"><img class="reveal" src="assets/images/gallery-3.jpg" alt="Galeri 3"></div></section>
+<section class="closing section-pad"><div class="reveal"><div class="ornament">❦</div><p class="overline">WITH LOVE & GRATITUDE</p><h2 class="section-heading">Merupakan suatu kebahagiaan<br>bagi kami</h2><p class="body-copy">Atas kehadiran, doa, dan restu Bapak/Ibu/Saudara/i, kami mengucapkan terima kasih.</p><p class="signature">Andi <i>&</i> Sarah</p><p class="overline">20 · 12 · 2026</p></div><footer>UNDANGAN PERNIKAHAN · ANDI & SARAH</footer></section>
+</main><script src="js/guests.js"></script><script src="js/app.js"></script></body></html>
